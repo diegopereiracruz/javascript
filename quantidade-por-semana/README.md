@@ -8,8 +8,8 @@
 <br>
 
 ## Funções
-* Recebe valores para cada dia da semana
-* Retorna todos os valores por semana + total (falta incluir)
+* :ballot_box_with_check: O usuário entra com valores para cada dia da semana.
+* :building_construction: Retorna todos os valores por semana + total.
 <br>
 
 ## Elementos

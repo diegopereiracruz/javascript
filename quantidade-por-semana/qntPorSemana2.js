@@ -11,7 +11,8 @@ while (operador != "s") {
     switch (operador) {
         case "c":
             while (input != "q") {
-                input = prompt("Insira o valor:\nr = aleatório\nq = finalizar\n\n" + "[Semana " + numSemana + "]\nDia " + numDia);
+                input = prompt("Insira o valor:\n[r] aleatório\n[q] finalizar\n\n" + "[Semana " + numSemana + "]\nDia " + numDia);
+                if (input == "r") input = Math.floor(Math.random() * 20) + 1;
                 if (input == Number(input)) {
                     if (numDia < 7) {
                         numDia++;
@@ -44,8 +45,6 @@ while (operador != "s") {
     }
 }
 operador = undefined;
-
-
 
 var keys = Object.keys(totalDeSemanas);
 keys.forEach((keys, index) => {

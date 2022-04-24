@@ -1,5 +1,5 @@
 <h1 align="center">Quantidade numérica por semana (INCOMPLETO)</h1>
-<p align="center">Script que recebe e retorna valores diários para cada semana.</p>
+<p align="center">Script que armazena valores por dia para cada semana</p>
 <br>
 
 ## Funções
@@ -14,3 +14,5 @@
 * For loop
 * if else
 * While
+* Switch
+* Object

@@ -1,8 +1,8 @@
-var birdsPerDay = [7,2,4,9,0,2,7,0,7,5,2,1,9,0]; // 14 days; 2 weeks
+var qntPerDay = [7,2,4,9,0,2,7,0,7,5,2,1,9,0]; // 14 days; 2 weeks
 var week = 2; // Semana escolhida
 var daysWeek = 7; // Dias por semana
 var numWeek = birdsPerDay.length / daysWeek; // Qnt. de semanas
-var total = 0; // Total de pássaros por semana
+var total = 0; // Total por semana
 
 var arrayWeeks = [];
 var temp = []; // Array temporário
@@ -21,15 +21,15 @@ if (week == arrayWeeks[week - 1]) { // ATENÇÃO! 2 = 1
 
 /*
 
-for (var i = 0; i <= birdsPerDay.length; i++) {
+for (var i = 0; i <= qntPerDay.length; i++) {
     
     while (i < daysWeek) {
-        temp[i] = birdsPerDay[i];
+        temp[i] = qntPerDay[i];
         total += i;
         break;
     }
     while (i > 6 && i <) {
-        week1[i] = birdsPerDay[i];
+        week1[i] = qntPerDay[i];
         break;
     }
 }

@@ -3,8 +3,8 @@
 <br>
 
 ## Glossário
-* [Projetos](#projetos)
-* [Aprendizado](#aprendizado)
+* [:bookmark_tabs: Projetos](#projetos)
+* [:motorway: Aprendizado](#aprendizado)
 <br>
 
 ## Projetos
@@ -13,11 +13,11 @@ Script que armazena valores por dia para cada semana.
 <br>
 
 ## Aprendizado
-* [DIO - Digital Inovation One](https://web.dio.me/users/diegopereiracruz1019/?tab=achievements)<br>
+* [:film_strip: DIO - Digital Inovation One](https://web.dio.me/users/diegopereiracruz1019/?tab=achievements)<br>
 Onde conheci e aprendi o básico do js.<br><br>
-* [Exercism](https://exercism.org/profiles/diegopereiracruz)<br>
+* [:memo: Exercism](https://exercism.org/profiles/diegopereiracruz)<br>
 Onde resolvo desafios diariamente.<br><br>
-* [Udemy - JavaScript for QA Engineers and SDETs](https://www.udemy.com/course/javascript-for-qa-engineers-and-sdets/)<br>
+* [:film_strip: Udemy - JavaScript for QA Engineers and SDETs](https://www.udemy.com/course/javascript-for-qa-engineers-and-sdets/)<br>
 Curso que me ajuda a entender funções básicas.<br><br>
-* [Blogspot pessoal](https://let-diego.blogspot.com/)<br>
-Blog pessoal onde eu posto cada nova desconberta e explico detalhadamente para mim mesmo.<br><br>
+* [:writing_hand: Blogspot pessoal](https://let-diego.blogspot.com/)<br>
+Um blog pessoal onde eu posto novas descobertas.<br><br>

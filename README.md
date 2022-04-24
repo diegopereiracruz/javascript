@@ -3,8 +3,8 @@
 <br>
 
 ## Glossário
-* [:bookmark_tabs: Projetos](#projetos)
-* [:motorway: Aprendizado](#aprendizado)
+* [Projetos](#projetos)
+* [Aprendizado](#aprendizado)
 <br>
 
 ## Projetos

@@ -8,7 +8,7 @@
 <br>
 
 ## Projetos
-* [Quantidade diária por semana](https://github.com/diegopereiracruz/javascript/tree/main/quantidade-por-semana)<br>
+* [:building_construction: Quantidade diária por semana](https://github.com/diegopereiracruz/javascript/tree/main/quantidade-por-semana)<br>
 Script que armazena valores por dia para cada semana.
 <br>
 

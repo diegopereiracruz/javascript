@@ -3,6 +3,7 @@
 <br>
 
 ## Funções
+* Recebe valores para cada dia da semana
 * Retorna todos os valores em sequência + total
 * Retorna todos os valores por semana + total
 <br>

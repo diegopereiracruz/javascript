@@ -9,7 +9,8 @@
 
 ## Projetos
 * [:building_construction: Quantidade diária por semana](https://github.com/diegopereiracruz/javascript/tree/main/quantidade-por-semana)<br>
-Script que armazena valores por dia para cada semana.
+Script que armazena valores por dia para cada semana.<br>
+Javascript
 <br>
 
 ## Aprendizado

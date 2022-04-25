@@ -16,7 +16,7 @@ Script que armazena valores por dia para cada semana.
 * [:film_strip: **DIO - Digital Inovation One**](https://web.dio.me/users/diegopereiracruz1019/?tab=achievements)<br>
 Onde conheci e aprendi o básico do js.<br><br>
 * [:memo: **Exercism**](https://exercism.org/profiles/diegopereiracruz)<br>
-Onde resolvo desafios diariamente.<br><br>
+Onde eu resolvo desafios diariamente.<br><br>
 * [:memo: **freeCodeCamp**](https://www.freecodecamp.org/Kadent)<br>
 Onde eu faço exercícios diariamente.<br><br>
 * [:film_strip: **Udemy - JavaScript for QA Engineers and SDETs**](https://www.udemy.com/course/javascript-for-qa-engineers-and-sdets/)<br>

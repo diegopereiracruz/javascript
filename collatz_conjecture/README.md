@@ -1,1 +1,1 @@
-# Collatz Conjecture
+# Conjectura de Collatz

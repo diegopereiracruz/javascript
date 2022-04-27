@@ -8,6 +8,8 @@
 <br>
 
 ## Projetos
+* [:abacus: **Conjectura de Collatz**](https://github.com/diegopereiracruz/javascript/tree/main/collatz_conjecture)<br>
+Script que reproduz o problema matemático conhecido como Conjectura de Collatz ou Problema 3x + 1.<br><br>
 * [:building_construction: **Quantidade diária por semana**](https://github.com/diegopereiracruz/javascript/tree/main/quantidade-por-semana)<br>
 Script que armazena valores por dia para cada semana.
 <br>

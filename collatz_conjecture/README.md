@@ -17,5 +17,5 @@ Entretanto, qualquer número natural inteiro, eventualmente chegará a 4, que se
 ## Elementos
 * prompt / alert
 * if / else
-* While
-* Switch
+* while
+* switch

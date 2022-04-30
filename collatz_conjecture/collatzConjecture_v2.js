@@ -30,11 +30,11 @@ while (x != "q") {
                     break;
                     
                 } else if (arrayDeValores.slice(arrayDeValores.length - 1) % 2 == 1) {
-                    alert(arrayDeValores.slice(arrayDeValores.length - 1) + "\n\nImpar (" + arrayDeValores.slice(arrayDeValores.length - 1) + " * 3 + 1)\n" + arrayDeValores.join(" | "));
+                    alert(arrayDeValores.slice(arrayDeValores.length - 1) + "\n\nImpar\n" + arrayDeValores.slice(arrayDeValores.length - 1) + " * 3 + 1\n\n" + arrayDeValores.join(" | "));
                     arrayDeValores.push(arrayDeValores.slice(arrayDeValores.length - 1) * 3 + 1);
                     
                 } else if (arrayDeValores.slice(arrayDeValores.length - 1) % 2 == 0) {
-                    alert(arrayDeValores.slice(arrayDeValores.length - 1) + "\n\nPar (" + arrayDeValores.slice(arrayDeValores.length - 1) + " / 2)\n" + arrayDeValores.join(" | "));
+                    alert(arrayDeValores.slice(arrayDeValores.length - 1) + "\n\nPar\n" + arrayDeValores.slice(arrayDeValores.length - 1) + " / 2\n\n" + arrayDeValores.join(" | "));
                     arrayDeValores.push(arrayDeValores.slice(arrayDeValores.length - 1) / 2);
                     
                 } else if (Number.isNaN(x)) {

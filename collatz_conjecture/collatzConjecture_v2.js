@@ -29,16 +29,17 @@ while (x != "q") {
                     x = undefined;
                     break;
                     
-                } else if (arrayDeValores.slice(arrayDeValores.length - 1) % 2 == 1) {
+                } else if (arrayDeValores.slice(arrayDeValores.length - 1) % 2 == 1 && arrayDeValores.slice(arrayDeValores.length - 1) > 0) {
                     alert(arrayDeValores.slice(arrayDeValores.length - 1) + "\n\nImpar\n" + arrayDeValores.slice(arrayDeValores.length - 1) + " * 3 + 1\n\nSequência:\n" + arrayDeValores.join(" | "));
                     arrayDeValores.push(arrayDeValores.slice(arrayDeValores.length - 1) * 3 + 1);
                     
-                } else if (arrayDeValores.slice(arrayDeValores.length - 1) % 2 == 0) {
+                } else if (arrayDeValores.slice(arrayDeValores.length - 1) % 2 == 0 && arrayDeValores.slice(arrayDeValores.length - 1) != 0 && arrayDeValores.slice(arrayDeValores.length - 1) > 0) {
                     alert(arrayDeValores.slice(arrayDeValores.length - 1) + "\n\nPar\n" + arrayDeValores.slice(arrayDeValores.length - 1) + " / 2\n\nSequência:\n" + arrayDeValores.join(" | "));
                     arrayDeValores.push(arrayDeValores.slice(arrayDeValores.length - 1) / 2);
                     
-                } else if (Number.isNaN(x)) {
-                    alert("Entrada inválida!\nInsira um número ou um comando.");
+                } else {
+                    alert("Entrada inválida!\n\nInsira um número natural inteiro positivo ou um comando.\nNão será válido 0 (zero), números negativos ou símbolos.");
+                    arrayDeValores = [];
                     x = undefined;
                     break;
                 }

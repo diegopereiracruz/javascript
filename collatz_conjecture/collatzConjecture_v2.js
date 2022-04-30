@@ -25,8 +25,9 @@ while (x != "q") {
             
             while (arrayDeValores.length != 0) {
                 if (arrayDeValores.slice(arrayDeValores.length - 1) == 1) {
-                    x = prompt("Total de sequências: " + arrayDeValores.length + "\nTodos os valores:\n" + arrayDeValores + "\n\n1 * 3 + 1 = 4 | 4 / 2 = 2 | 2 / 2 = 1...\n\nq: voltar");
+                    x = prompt("Total de sequências: " + arrayDeValores.length + "\n\nTodos os valores:\n" + arrayDeValores + "\n\n4, 2, 1 se repetirá infinitamente\n\nq: voltar");
                     arrayDeValores = [];
+                    x = undefined;
                     break;
                     
                 } else if (arrayDeValores.slice(arrayDeValores.length - 1) % 2 == 1) {

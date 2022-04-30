@@ -5,7 +5,7 @@
 ## Glossário
 * [O que é?](#o-que-é-conjectura-de-collatz)
 * [Elementos](#elementos)
-* [Ver código](https://github.com/diegopereiracruz/javascript/blob/main/collatz_conjecture/collatzConjecture.js)
+* [Ver código](#ver-código)
 <br>
 
 ## O que é Conjectura de Collatz?
@@ -20,3 +20,13 @@ Entretanto, qualquer número natural inteiro, eventualmente chegará a 4, que se
 * if / else
 * while
 * switch
+* array
+
+## Ver código
+**Recomendação:** executar o código em um console de JS online<br>
+[jsconsole.com](https://jsconsole.com/)<br>
+<br>
+[**collatzConjecture_v2.js**](https://github.com/diegopereiracruz/javascript/blob/main/collatz_conjecture/collatzConjecture_v2.js)<br>
+Versão melhorada usando arrays.<br><br>
+[**collatzConjecture.js**](https://github.com/diegopereiracruz/javascript/blob/main/collatz_conjecture/collatzConjecture.js)<br>
+Primeira versão e mais simples.<br><br>

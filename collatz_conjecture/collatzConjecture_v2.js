@@ -1,22 +1,35 @@
 var x = undefined;
-var y = undefined;
 var arrayDeValores = [];
 
-while (x != "q") {
-    x = prompt("Conjectura de Collatz\na: o que é?\nq: sair\n\nDigite um número natural inteiro:");
+while (x != "Q") {
+    x = prompt("Conjectura de Collatz\n\na: o que é?\nc: créditos\nq: sair\n\nDigite um número natural inteiro:");
+    
+    x = x.toUpperCase();
     
     switch (x){
-        case "a":
-            y = prompt("A Conjectura de Collatz ou também é conhecido como Problema 3x + 1, é um problema matemático proposto pelo matemático alemão Lothar Collatz, em 1937.\n\nO problema consiste em obter qualquer número natural inteiro, caso o mesmo seja par, será dividido por 2 (x / 2), caso seja impar, será multiplicado por 3 e adicionado 1 (x * 3 + 1).\n\nEntretanto, qualquer número natural inteiro, eventualmente chegará a 4, que se converte em 2 e terminando em 1, entrando em uma sequência de 4, 2, 1 infinitamente.\n\nwiki: ver na Wikipédia\nqualquer tecla: voltar");
-            if (y == "wiki" || y == "Wiki" || y == "WIKI") {
+        case "A":
+            x = prompt("A Conjectura de Collatz ou também é conhecido como Problema 3x + 1, é um problema matemático proposto pelo matemático alemão Lothar Collatz, em 1937.\n\nO problema consiste em obter qualquer número natural inteiro, caso o mesmo seja par, será dividido por 2 (x / 2), caso seja impar, será multiplicado por 3 e adicionado 1 (x * 3 + 1).\n\nEntretanto, qualquer número natural inteiro, eventualmente chegará a 4, que se converte em 2 e terminando em 1, entrando em uma sequência de 4, 2, 1 infinitamente.\n\nwiki: ver na Wikipédia\nqualquer tecla: voltar");
+            if (x.toUpperCase() == "WIKI") {
                 window.open("http://pt.wikipedia.org/wiki/Conjectura_de_Collatz", "_blank");
             } else {
                 x = undefined;
-                y = undefined;
-                break;
             }
+            
+            break;
         
-        case "q":
+        case "C":
+            x = prompt("Script feito por: Diego Pereira Cruz\ngithub.com/diegopereiracruz\n\nDecidi fazer este script após ver um vídeo do assunto no canal do YouTube Veritasium, além também de testar meu conhecimento em JavaScript.\n\ngithub: meu perfil do Github\nvideo: vídeo do Veritasium no qual me referi\nqualquer tecla: voltar");
+            if (x.toUpperCase() == "GITHUB") {
+                window.open("http://pt.wikipedia.org/wiki/Conjectura_de_Collatz", "_blank");
+            } else if (x.toUpperCase() == "VIDEO" || x.toUpperCase() == "VÍDEO") {
+                window.open("http://pt.wikipedia.org/wiki/Conjectura_de_Collatz", "_blank");
+            } else {
+                x = undefined;
+            }
+            
+            break;
+        
+        case "Q":
             break;
         
         default:

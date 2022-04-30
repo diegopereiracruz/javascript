@@ -1,6 +1,5 @@
 var x = undefined;
 var y = undefined;
-//var vezesQueUmRepetiu = 0;
 var arrayDeValores = [];
 
 while (x != "q") {
@@ -25,18 +24,17 @@ while (x != "q") {
             
             while (arrayDeValores.length != 0) {
                 if (arrayDeValores.slice(arrayDeValores.length - 1) == 1) {
-                    x = prompt("Total de sequências: " + arrayDeValores.length + "\n\nTodos os valores:\n" + arrayDeValores + "\n\n4, 2, 1 se repetirá infinitamente\n\nq: voltar");
+                    x = prompt("Total de sequências: " + arrayDeValores.length + "\n\nTodos os valores:\n" + arrayDeValores.join(" | ") + "\n\n4, 2, 1 se repetirá infinitamente\n\nq: voltar");
                     arrayDeValores = [];
                     x = undefined;
                     break;
                     
                 } else if (arrayDeValores.slice(arrayDeValores.length - 1) % 2 == 1) {
-                    alert(arrayDeValores.slice(arrayDeValores.length - 1) + "\n\nImpar (" + arrayDeValores.slice(arrayDeValores.length - 1) + " * 3 + 1)\n" + arrayDeValores);
+                    alert(arrayDeValores.slice(arrayDeValores.length - 1) + "\n\nImpar (" + arrayDeValores.slice(arrayDeValores.length - 1) + " * 3 + 1)\n" + arrayDeValores.join(" | "));
                     arrayDeValores.push(arrayDeValores.slice(arrayDeValores.length - 1) * 3 + 1);
-                    //vezesQueUmRepetiu = (arrayDeValores.slice(arrayDeValores.length - 1) == 1) ? vezesQueUmRepetiu++;
                     
                 } else if (arrayDeValores.slice(arrayDeValores.length - 1) % 2 == 0) {
-                    alert(arrayDeValores.slice(arrayDeValores.length - 1) + "\n\nPar (" + arrayDeValores.slice(arrayDeValores.length - 1) + " / 2)\n" + arrayDeValores);
+                    alert(arrayDeValores.slice(arrayDeValores.length - 1) + "\n\nPar (" + arrayDeValores.slice(arrayDeValores.length - 1) + " / 2)\n" + arrayDeValores.join(" | "));
                     arrayDeValores.push(arrayDeValores.slice(arrayDeValores.length - 1) / 2);
                     
                 } else if (Number.isNaN(x)) {

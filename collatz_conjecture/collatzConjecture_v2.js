@@ -20,9 +20,9 @@ while (x != "Q") {
         case "C":
             x = prompt("Script feito por: Diego Pereira Cruz\ngithub.com/diegopereiracruz\n\nDecidi fazer este script após ver um vídeo do assunto no canal do YouTube Veritasium, além também de testar meu conhecimento em JavaScript.\n\ngithub: meu perfil do Github\nvideo: vídeo do Veritasium no qual me referi\nqualquer tecla: voltar");
             if (x.toUpperCase() == "GITHUB") {
-                window.open("http://pt.wikipedia.org/wiki/Conjectura_de_Collatz", "_blank");
+                window.open("https://github.com/diegopereiracruz", "_blank");
             } else if (x.toUpperCase() == "VIDEO" || x.toUpperCase() == "VÍDEO") {
-                window.open("http://pt.wikipedia.org/wiki/Conjectura_de_Collatz", "_blank");
+                window.open("https://youtu.be/094y1Z2wpJg", "_blank");
             } else {
                 x = undefined;
             }

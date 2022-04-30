@@ -5,6 +5,7 @@
 ## Glossário
 * [O que é?](#o-que-é-conjectura-de-collatz)
 * [Elementos](#elementos)
+* [Ver código](https://github.com/diegopereiracruz/javascript/blob/main/collatz_conjecture/collatzConjecture.js)
 <br>
 
 ## O que é Conjectura de Collatz?
